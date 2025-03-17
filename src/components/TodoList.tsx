@@ -42,7 +42,7 @@ export default function TodoList() {
         fullWidth
         value={input}
         onChange={(e) => setInput(e.target.value)}
-        onKeyPress={(e) => e.key === "Enter" && addTodo()}
+        onKeyDown={(e) => e.key === "Enter" && addTodo()}
       />
       <Button variant="contained" color="primary" onClick={addTodo} style={{ marginTop: "10px" }}>
         Add Task
