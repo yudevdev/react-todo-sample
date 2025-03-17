@@ -6,8 +6,8 @@
 
 ### 1. リポジトリをクローン
 ```sh
-git clone <リポジトリURL>
-cd <プロジェクトフォルダ名>
+git clone https://github.com/yudevdev/react-todo-sample
+cd react-todo-sample
 ```
 
 ### 2. 必要なパッケージをインストール
